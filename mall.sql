@@ -21,6 +21,12 @@ SET time_zone = "+00:00";
 --
 -- Database: `mall`
 --
+-- GRANT CREATE ON *.* TO 'if0_37693676'@'192.168.%';
+
+
+CREATE DATABASE IF NOT EXISTS `mall` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `mall`;
+
 
 DELIMITER $$
 --
